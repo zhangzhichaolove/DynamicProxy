@@ -39,7 +39,7 @@ public class All {
 
 
     /**
-     * 实现接口
+     * 委托类 实现接口
      */
     public static class RealSubject implements Subject {
         @Override

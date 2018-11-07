@@ -1,4 +1,4 @@
-package cpm.peak.chao.model;
+package com.peak.chao.model;
 
 public class GitHubModel {
 }

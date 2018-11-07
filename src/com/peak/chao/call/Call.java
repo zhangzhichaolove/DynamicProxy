@@ -1,4 +1,4 @@
-package cpm.peak.chao.call;
+package com.peak.chao.call;
 
 public interface Call<T> {
 }

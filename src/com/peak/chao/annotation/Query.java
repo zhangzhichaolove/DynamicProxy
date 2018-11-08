@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.PARAMETER)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Path {
+public @interface Query {
 
     String value() default "no parameter";
 }

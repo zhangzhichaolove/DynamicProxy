@@ -16,6 +16,10 @@ public class Main {
         print(pwd.getErrorStream());
         print(pwd.getInputStream());
         pwd.waitFor();
+        Process cat = Runtime.getRuntime().exec("cat LICENSE");
+        print(cat.getErrorStream());
+        print(cat.getInputStream());
+        cat.waitFor();
     }
 
 

@@ -1,4 +1,4 @@
-package com.peak.chao.memo
+package com.peak.chao.other.memo
 
 
 fun main(args: Array<String>) {

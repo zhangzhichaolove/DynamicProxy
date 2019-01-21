@@ -1,4 +1,4 @@
-package com.peak.chao.memo;
+package com.peak.chao.other.memo;
 
 public class ArraySort implements Runnable {
     private String num;

@@ -9,7 +9,7 @@ public class Main {
         Field field = testModel.getClass().getDeclaredField("age");
         field.setAccessible(true);
         System.err.println(field.get(testModel));
-        field.set(testModel,19);
+        field.set(testModel, 19);
         System.err.println(field.get(testModel));
     }
 }

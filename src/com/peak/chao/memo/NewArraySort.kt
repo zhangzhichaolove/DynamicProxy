@@ -40,7 +40,7 @@ data class Person(var name: String, var age: Int) : Comparable<Person> {
         return if (this.age == other.age) {
             this.name.compareTo(other.name)
         } else {
-            other.age - this.age
+            this.age.compareTo(other.age)
         }
     }
 

@@ -4,8 +4,11 @@ public class TestModel {
 
 
     private final int age = 18;
-    private String name = "Mr";
+    private final String name = new String("Mr");
 
+    public TestModel() {
+        //this.name = "Mr";
+    }
 
     @Override
     public String toString() {
@@ -14,4 +17,14 @@ public class TestModel {
                 ", name='" + name + '\'' +
                 '}';
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
 }
